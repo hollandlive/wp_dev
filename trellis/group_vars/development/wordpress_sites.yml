@@ -7,7 +7,7 @@ wordpress_sites:
 #blogsfeeds_dev  
   blogsfeeds_dev:
     site_hosts:
-      - canonical: https://blogsfeeds.com/dev/
+      - canonical: blogsfeeds.test
         #redirects:
          # - www.example.test
     local_path: ../blogsfeeds_dev # path targeting local Bedrock site directory (relative to Ansible root)
@@ -23,7 +23,7 @@ wordpress_sites:
 #portfolio_dev
     portfolio_dev:
     site_hosts:
-      - canonical: https://blogsfeeds.com/portfolio/
+      - canonical: portfolio.test
         #redirects:
          # - www.example.test
     local_path: ../blogsfeeds_dev # path targeting local Bedrock site directory (relative to Ansible root)
