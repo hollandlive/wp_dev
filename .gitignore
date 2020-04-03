@@ -1,4 +1,4 @@
 # gitignore files
 
 .vagrant
-/trellis/group_vasr/development/vault.yml
+trellis/group_vasr/development/vault.yml
