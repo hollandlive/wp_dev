@@ -5,8 +5,6 @@ vault_mysql_root_password: xxx
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
   blogsfeeds_dev:
-    admin_password: xxxxxx
+    admin_password: xxx
     env:
       db_password: xxx
-
-      git rm -r --cached trellis/group_vars/development/vault.yml
