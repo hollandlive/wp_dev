@@ -26,7 +26,7 @@ wordpress_sites:
       - canonical: portfolio.test
         #redirects:
          # - www.example.test
-    local_path: ../blogsfeeds_dev # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../portfolio_dev # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: hollandlive@gmail.com
     multisite:
       enabled: false
