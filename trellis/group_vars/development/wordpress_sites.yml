@@ -4,29 +4,13 @@
 
 wordpress_sites:
 
-#blogsfeeds_dev  
-  blogsfeeds_dev:
-    site_hosts:
-      - canonical: blogsfeeds.test
-        #redirects:
-         # - www.example.test
-    local_path: ../blogsfeeds_dev # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: hollandlive@gmail.com
-    multisite:
-      enabled: false
-    ssl:
-      enabled: false
-      provider: self-signed
-    cache:
-      enabled: false
-
 #portfolio_dev
-    portfolio_dev:
+    portfolio:
     site_hosts:
       - canonical: portfolio.test
         #redirects:
          # - www.example.test
-    local_path: ../portfolio_dev # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../portfolio # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: hollandlive@gmail.com
     multisite:
       enabled: false
