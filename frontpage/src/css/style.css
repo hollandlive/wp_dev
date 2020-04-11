@@ -1,84 +1,14 @@
-body {
-  background-color: blue; }
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+body, html {
+  font-family: 'Raleway', sans-serif;
+  margin: 0; }
+  body a, html a {
+    text-decoration: none; }
 
-
-.navigation {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  
-  list-style: none;
-  margin: 0; 
-  background: deepskyblue;
-}
-
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: white;
-}
-
-.navigation a:hover {
-  background: #1565C0;
-}
-
-@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .navigation {
-    flex-flow: column wrap;
-    padding: 0;
-  }
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255,0.3); 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-  }
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
-}
-
-
-.wrapper {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-/* We tell all items to be 100% width, via flex-basis */
-.wrapper > * {
-  flex: 1 100%;
-}
-
-/* We rely on source order for mobile-first approach
- * in this case:
- * 1. header
- * 2. article
- * 3. aside 1
- * 4. aside 2
- * 5. footer
- */
-
-/* Medium screens */
-@media all and (min-width: 600px) {
-  /* We tell both sidebars to share a row */
-  .aside { flex: 1 auto; }
-}
-
-/* Large screens */
-@media all and (min-width: 800px) {
-  /* We invert order of first sidebar and main
-   * And tell the main element to take twice as much width as the other two sidebars 
-   */
-  .main { flex: 2 0px; }
-  .aside-1 { order: 1; }
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
-}
+header {
+  padding: 20px 20px; }
+  header a {
+    font-size: 42px;
+    width: 24px; }
+  header #open-menu {
+    float: right; }
