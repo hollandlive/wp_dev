@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 body, html {
+  height: 100%;
   font-family: 'Raleway', sans-serif;
   margin: 0; }
   body a, html a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #157bbf; }
+    body a:hover, html a:hover {
+      color: #e9eef2; }
+  body .masthead, html .masthead {
+    position: relative;
+    background-color: #84b7d9;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
 header {
   padding: 20px 20px; }
@@ -12,3 +23,9 @@ header {
     width: 24px; }
   header #open-menu {
     float: right; }
+
+section {
+  padding-top: 150px; }
+  section .headline {
+    width: 100%;
+    text-align: center; }

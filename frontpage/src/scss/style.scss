@@ -1,11 +1,31 @@
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
+// Core variables and mixins
+$artemisBlue: #84b7d9;
+$artemisDarkBlue: #157bbf;
+$artemisGrey: #e9eef2;
+$artemisDarkGrey: #a1a7ab;
+
+@import "mixins.scss";
+// Global Styles
+
+
 body, html {
+	height: 100%;
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
 	a {
 		text-decoration: none;
+		color: $artemisDarkBlue;
+		&:hover {
+			color: $artemisGrey;
+		}
+	}
+	.masthead {
+    position: relative;
+    background-color: $artemisBlue;
+    @include background-cover;
 	}
 }
 
@@ -20,5 +40,13 @@ header {
 	#open-menu {
 		float: right;
 	}
+}
 
+section {
+	padding-top: 150px;
+		.headline {
+
+     		width: 100%;
+		    text-align: center;
+		}
 }
