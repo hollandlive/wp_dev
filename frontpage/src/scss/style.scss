@@ -18,8 +18,6 @@ body, html {
 	margin: 0;
 	a {
 		text-decoration: none;
-				font-size: 3.5em;
-
 		color: $artemisDarkBlue;
 		&:hover {
 			color: $artemisGrey;
@@ -33,16 +31,37 @@ body, html {
 }
 
 header {
-	padding: 2em 4em;
-
 	a {
 		width: 3em;
+		font-size: 3em;
+		&.menulink {
+			font-size: 1.2em;
+			color: $artemisDarkGrey;
+			margin: 3em;
+		}
 	}
 
 	#open-btn, 
 	#close-btn {
 		float: right;
 	}
+	.logo {
+		padding-left: 1em;	
+	}
+}
+nav {
+	&#overlay {
+		background-color: white;
+	}
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+	display: inline;
 }
 
 section {

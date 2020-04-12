@@ -5,7 +5,6 @@ body, html {
   margin: 0; }
   body a, html a {
     text-decoration: none;
-    font-size: 3.5em;
     color: #157bbf; }
     body a:hover, html a:hover {
       color: #e9eef2; }
@@ -17,13 +16,31 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
 
-header {
-  padding: 2em 4em; }
-  header a {
-    width: 3em; }
-  header #open-btn,
-  header #close-btn {
-    float: right; }
+header a {
+  width: 3em;
+  font-size: 3em; }
+  header a.menulink {
+    font-size: 1.2em;
+    color: #a1a7ab;
+    margin: 3em; }
+
+header #open-btn,
+header #close-btn {
+  float: right; }
+
+header .logo {
+  padding-left: 1em; }
+
+nav#overlay {
+  background-color: white; }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; }
+
+nav li {
+  display: inline; }
 
 section {
   padding-top: 4em; }
