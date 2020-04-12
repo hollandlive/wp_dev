@@ -6,6 +6,7 @@ $artemisBlue: #84b7d9;
 $artemisDarkBlue: #157bbf;
 $artemisGrey: #e9eef2;
 $artemisDarkGrey: #a1a7ab;
+$artemisIntenseBlue: #0f15d4;
 
 @import "mixins.scss";
 // Global Styles
@@ -17,6 +18,8 @@ body, html {
 	margin: 0;
 	a {
 		text-decoration: none;
+				font-size: 3.5em;
+
 		color: $artemisDarkBlue;
 		&:hover {
 			color: $artemisGrey;
@@ -30,23 +33,29 @@ body, html {
 }
 
 header {
-	padding: 20px 20px;
+	padding: 2em 4em;
 
 	a {
-		font-size: 42px;
-		width: 24px;
+		width: 3em;
 	}
 
-	#open-menu {
+	#open-btn, 
+	#close-btn {
 		float: right;
 	}
 }
 
 section {
-	padding-top: 150px;
-		.headline {
+	padding-top: 4em;
 
-     		width: 100%;
-		    text-align: center;
-		}
+	h1 {
+		margin: 2em auto;
+		width: 70%;
+		font-size: 4em;
+		&::before {
+			content: '';
+			border-top: 0.2em solid $artemisDarkBlue;
+			display: block;
+	}	
+}
 }

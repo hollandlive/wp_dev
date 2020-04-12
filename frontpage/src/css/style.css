@@ -5,6 +5,7 @@ body, html {
   margin: 0; }
   body a, html a {
     text-decoration: none;
+    font-size: 3.5em;
     color: #157bbf; }
     body a:hover, html a:hover {
       color: #e9eef2; }
@@ -17,15 +18,20 @@ body, html {
     background-size: cover; }
 
 header {
-  padding: 20px 20px; }
+  padding: 2em 4em; }
   header a {
-    font-size: 42px;
-    width: 24px; }
-  header #open-menu {
+    width: 3em; }
+  header #open-btn,
+  header #close-btn {
     float: right; }
 
 section {
-  padding-top: 150px; }
-  section .headline {
-    width: 100%;
-    text-align: center; }
+  padding-top: 4em; }
+  section h1 {
+    margin: 2em auto;
+    width: 70%;
+    font-size: 4em; }
+    section h1::before {
+      content: '';
+      border-top: 0.2em solid #157bbf;
+      display: block; }
