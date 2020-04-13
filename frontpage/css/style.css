@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+body, html {
+  font-family: 'Raleway', sans-serif; }
+  body a, html a {
+    text-decoration: none;
+    color: #157bbf !important; }
+    body a:hover, html a:hover {
+      color: #e9eef2; }
+  body .masthead, html .masthead {
+    position: relative;
+    background-color: #0f15d4;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+nav .bg-artemisIntenseBlue {
+  background-color: #0f15d4; }

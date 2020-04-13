@@ -4,9 +4,9 @@ const sass = require('gulp-sass');
 
 // compile sass file into css file
 gulp.task('sass', () => {
-	return gulp.src('src/scss/*.scss')
+	return gulp.src('scss/*.scss')
 	.pipe(sass())
-	.pipe(gulp.dest('src/css'))
+	.pipe(gulp.dest('css'))
 	.pipe(browserSync.stream());
 })
 
@@ -16,7 +16,7 @@ gulp.task('serve', ['sass'], () => {
 		server: ''
 	});
 
-	gulp.watch('src/scss/*.scss', ['sass']);
+	gulp.watch('scss/*.scss', ['sass']);
 	gulp.watch('*.html').on('change', browserSync.reload);
 })
 
