@@ -45,9 +45,13 @@ header {
 	#close-btn {
 		float: right;
 	}
-	.logo {
+	.logo, {
 		padding-left: 1em;	
 	}
+	.close-menu {
+		padding-right: 1em;
+	}
+
 }
 nav {
 	&#overlay {

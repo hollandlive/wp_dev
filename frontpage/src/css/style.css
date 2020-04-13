@@ -31,6 +31,9 @@ header #close-btn {
 header .logo {
   padding-left: 1em; }
 
+header .close-menu {
+  padding-right: 1em; }
+
 nav#overlay {
   background-color: white; }
 
