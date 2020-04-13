@@ -56,12 +56,17 @@ header {
 nav {
 	&#overlay {
 		background-color: white;
+		//display: none;			
 	}
 }
 nav ul {
   list-style-type: none;
-  padding: 0;
+  padding-top: 4em;
+  padding-bottom: 4em;
   text-align: center;
+  //margin: 10% auto 0 auto;
+
+
 }
 
 nav li {
@@ -80,5 +85,10 @@ section {
 			border-top: 0.2em solid $artemisDarkBlue;
 			display: block;
 	}	
+}
+
+nav.show-menu {
+	display: block;
+	background-color: red;
 }
 }

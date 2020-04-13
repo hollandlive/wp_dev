@@ -39,7 +39,8 @@ nav#overlay {
 
 nav ul {
   list-style-type: none;
-  padding: 0;
+  padding-top: 4em;
+  padding-bottom: 4em;
   text-align: center; }
 
 nav li {
@@ -55,3 +56,6 @@ section {
       content: '';
       border-top: 0.2em solid #157bbf;
       display: block; }
+  section nav.show-menu {
+    display: block;
+    background-color: red; }
