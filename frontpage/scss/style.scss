@@ -1,36 +1,23 @@
+// Bootstrap required
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+// Global Styles
+@import "global.scss";
+@import "typography.scss";
+
+// Components
+
+
+// Bootstrap and Plugin Overrides
+@import "bootstrap_overrides.scss";
+//@import "owl-carousel-overrides.scss"
+
+
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-// Core variables and mixins
-$artemisBlue: #84b7d9;
-$artemisDarkBlue: #157bbf;
-$artemisGrey: #e9eef2;
-$artemisDarkGrey: #a1a7ab;
-$artemisIntenseBlue: #0f15d4;
-
-@import "mixins.scss";
-// Global Styles
 
 
-body, html {
-	font-family: 'Raleway', sans-serif;
-	a {
-		text-decoration: none;
-		color: $artemisDarkBlue !important;
-		&:hover {
-			color: $artemisGrey; 
-		}
-	}
-	.masthead {
-    position: relative;
-    background-color: $artemisIntenseBlue;
-    @include background-cover;
-	}
-}
-
-nav {
-	.bg-artemisIntenseBlue {
-		background-color: $artemisIntenseBlue;
-	}
-}
 

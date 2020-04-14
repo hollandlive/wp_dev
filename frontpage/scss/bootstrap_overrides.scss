@@ -1,0 +1,79 @@
+// Core variables and mixins
+$artemisBlue: #84b7d9;
+$artemisDarkBlue: #157bbf;
+$artemisGrey: #e9eef2;
+$artemisDarkGrey: #a1a7ab;
+$artemisIntenseBlue: #0f15d4;
+$artemisPink: #de34eb;
+$artemisYellow: #dfeb34;
+
+.bg-dark {
+	background-color: $artemisIntenseBlue !important;
+}
+
+.btn {
+	margin: 0.5em;
+	border-radius: .5rem;
+	border: 10px solid transparent;
+	&.btn-secondary {
+		background-color: $artemisDarkGrey !important;
+		border-color: $artemisDarkGrey !important;
+		}
+
+	&.btn-primary {
+		background-color: $artemisPink !important;
+		border-color: $artemisPink !important;
+	}
+}
+
+.container-fluid {
+height: 8rem;	
+background-color: $artemisGrey;
+display: table-cell !important; 
+
+}
+
+	.bg-pink{
+		display: table;
+		width: 10%;
+		background-color: $artemisPink;
+    	border-radius: .25rem;
+	}
+
+	.bg-grey{
+    	width: 20%;
+    	background-color: #80bdff;
+    	border-radius: .25rem;
+	}
+
+	.bg-yellow{
+    	width: 50%;
+    	height: 8rem;
+    	background-color: $artemisYellow;
+    	border-radius: .25rem;
+	}
+
+
+
+
+	.box{
+    background-color: coral;
+    display: table-cell;
+    border-radius:5px;
+}
+.text{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    padding: 10px 0;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    width: 1%;
+}
