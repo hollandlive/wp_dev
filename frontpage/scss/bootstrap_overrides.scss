@@ -8,7 +8,7 @@ $artemisPink: #de34eb;
 $artemisYellow: #dfeb34;
 
 .bg-dark {
-	background-color: $artemisIntenseBlue !important;
+	background-color: $artemisDarkBlue !important;
 }
 
 .btn {
@@ -26,54 +26,69 @@ $artemisYellow: #dfeb34;
 	}
 }
 
-.container-fluid {
-height: 8rem;	
-background-color: $artemisGrey;
-display: table-cell !important; 
+.carousel-inner .img-fluid {
+		margin: auto !important;
+		width: 100% !important;
+	}
 
+
+.jumbotron {
+	margin-bottom: 0;
+	background-color: $artemisGrey !important;
 }
 
+.container-fluid {
 	.bg-pink{
-		display: table;
-		width: 10%;
+		height: 16em;
 		background-color: $artemisPink;
     	border-radius: .25rem;
 	}
-
-	.bg-grey{
-    	width: 20%;
-    	background-color: #80bdff;
-    	border-radius: .25rem;
-	}
-
 	.bg-yellow{
-    	width: 50%;
-    	height: 8rem;
+		height: 16em;
     	background-color: $artemisYellow;
     	border-radius: .25rem;
 	}
-
-
-
-
-	.box{
-    background-color: coral;
-    display: table-cell;
-    border-radius:5px;
+	.bg-grey{
+		height: 16em;
+    	background-color: $artemisDarkGrey;
+    	border-radius: .25rem;
+	}
+	.bg-blue{
+		height: 16em;
+    	background-color: $artemisBlue;
+    	border-radius: .25rem;
+	}
+	.bg-darkBlue{
+		height: 16em;
+    	background-color: $artemisDarkBlue;
+    	border-radius: .25rem;
+	}
+.height1 {
+	height: 32em;
+	}
+.width1 {
+	position: absolute !important;
+	margin-top: 16em;
+	margin-left: 25%;
+	}
+.width2 {
+	position: absolute !important;
+	margin-top: 16em;
+	margin-left: 50%;
+	}	
+		
 }
-.text{
-    color:white;
-    font-weight:bold;
-    text-align:center;
-    padding: 10px 0;
+
+.skills {
+	height: 16em;
+	background-color: $artemisGrey;
 }
 
-.wrapper {
-    display: table;
-    width: 100%;
-}
 
-.middle {
-    display: table-cell;
-    width: 1%;
-}
+.footer-wrap {
+	height: 16em;
+ 	background-color: $artemisBlue;
+ }	
+
+@import "responsive480";
+
