@@ -30,27 +30,35 @@
   <body>
 
     <header>
-      <div class="collapse bg-dark" id="navbarHeader">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbarArtemis" id="navbarsExample04">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Designs</a>
+          </li>       
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>           
         </ul>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-            <strong>Album</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
+    </nav>
     </header>
 
 
@@ -97,11 +105,11 @@
 
   <section class="jumbotron text-center">
         <div class="container">
-          <h1 class="jumbotron-heading">About</h1>
-          <p class="lead text-muted">Please find below short examples of the projects where I've been previously engaged.</p>
+          <h1 class="skillsHeading">About</h1>
+          <p class="lead text-muted">Please find below my Github, Linkedin and description of some working examples in recent years</p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            <a href="https://github.com/hollandlive/wp_dev" class="btn btn-primary my-2">My Github</a>
+            <a href="https://www.linkedin.com/in/artemis-aksen" class="btn btn-secondary my-2">My Linkedin</a>
           </p>
         </div>
   </section>
@@ -110,23 +118,32 @@
 <section class="container-fluid">
 <div class="row">
     <div class="col-3 bg-pink height1">
-      <h4>Project 1</h4>
-      <p><i class="fa fa-bar-chart" aria-hidden="true"></i></p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, sxwcwe wscwcd wcwc wdcwdc </p>
+      <center><i class="fa fa-bar-chart whiteText" aria-hidden="true"></i></center>
+            <h6 class='whiteText'>Project 1</h6>
+
+      <p class='whiteText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, sxwcwe wscwcd wcwc wdcwdc dwef vref3w</p>
     </div>
     <div class="col-6 bg-yellow">
-      2 of 3 (wider)
+      <center><i class="fa fa-bar-chart whiteText" aria-hidden="true"></i></center>
+            <h6 class='whiteText'>Project 1</h6>
+      <p class='whiteText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula </p>
     </div>
     <div class="col-3 bg-darkBlue">
-      3 of 3
+      <center><i class="fa fa-bar-chart whiteText" aria-hidden="true"></i></center>
+            <h6 class='whiteText'>Project 1</h6>
+      <p class='whiteText'>Lorem ipsum dolor sit amet, consectetuer</p>
     </div>
-
     <div class="col-3 bg-blue width1">
-      1 of 3
+      <center><i class="fa fa-bar-chart whiteText" aria-hidden="true"></i></center>
+            <h6 class='whiteText'>Project 1</h6>
+      <p class='whiteText'>Lorem ipsum dolor sit amet, consectetuer</p>
     </div>
 
     <div class="col-6 bg-grey width2">
-      3 of 3
+      <center><i class="fa fa-bar-chart whiteText" aria-hidden="true"></i></center>
+            <h6 class='whiteText'>Project 1</h6>
+
+      <p class='whiteText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
     </div>
 </div>    
 
@@ -134,11 +151,16 @@
 
 <section>
   <div class="container-fluid">
-    <h1>My Skills</h1>
+    <h1 class="skillsHeading">My Skills</h1>
     <div class="row">
     <div class="col-6 skills">
       <ul class="list-group">
-  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">HTML language
+  <button type="button" class="btn btn-success btnSkills">HTML5</button>
+<button type="button" class="btn btn-warning btnSkills">XML</button>
+<button type="button" class="btn btn-danger btnSkills">HTML4</button>
+
+</li>
   <li class="list-group-item">Dapibus ac facilisis in</li>
   <li class="list-group-item">Morbi leo risus</li>
   <li class="list-group-item">Porta ac consectetur ac</li>
@@ -167,11 +189,16 @@
 
 <footer class="container-fluid footer-wrap">
   <div class="row">
-        <div class="col">
-      3 of 3
-    </div>
+      <div class="col-6">
+<div class="footer-about">
+          <h2>Ahead in a digital world</h2>
+          <p>
+            Creating world changing digital experiences is what makes our people tick. For we were born digital. We connect relevant data at the right place and the right time. We unite your business needs with customer needs and powerful technology.
+          </p>
+          <a href="#">Over Marviq</a>
+        </div>    </div>
 
-    <div class="col-6">
+    <div class="col">
       1 of 3
     </div>
 
