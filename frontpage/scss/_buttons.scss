@@ -1,8 +1,13 @@
-.btn.btnSkills {
-	padding-left: 1.5em;
-	padding-right: 1em;
-	font-size: 0.5em;
-	margin: 0.2em;
-	font-weight: 100;
-	line-height: 0.2;
+.btn {
+	border: 3px solid transparent;
+	border-radius: 0.25em;
+		&.btnSkills {
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 0.6em;
+		margin: 0.2em;
+		font-weight: 100;
+		line-height: 0.2;
+	}
 }
+
