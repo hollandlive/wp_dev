@@ -148,4 +148,18 @@ li.list-group-item {
 @media (min-width: 480px) and (max-width: 767px) {
   .height1 {
     height: auto !important;
-    padding: 0; } }
+    padding: 0;
+    min-height: 513px; }
+  p.whiteText {
+    color: white;
+    font-size: 0.9em;
+    margin: 1em;
+    font-weight: normal !important; }
+  .width1 {
+    height: auto !important;
+    min-height: 313px; }
+  .width2 {
+    height: auto !important;
+    min-height: 313px; }
+  .list-group-item {
+    font-size: 0.9em; } }
