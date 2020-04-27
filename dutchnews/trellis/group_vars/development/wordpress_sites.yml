@@ -6,7 +6,7 @@ wordpress_sites:
   dutchnews.ru:
     site_hosts:
       - canonical: dutchnews.dev
-    local_path: ../dutchnews.ru # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: hollandlive@gmail.com
     multisite:
       enabled: false
