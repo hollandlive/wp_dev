@@ -2,3 +2,37 @@
 
 .vagrant
 trellis/group_vasr/development/vault.yml
+
+# Sample of .git/info/exclude
+# Documentation: https://git-scm.com/docs/gitignore
+
+# Exclude .gitignore file.
+  # If an initial .gitignore file has been added to the repo,
+  # you might have to delete it first and sync the change.
+  # Then create a new one which will be excluded according to this rule.
+.gitignore
+
+# Exclude all of WordPress, but keep these directories synced:
+  # /wp-content/mu-plugins
+  # /wp-content/themes/child-theme
+
+# Exclude everything in root…
+/*
+
+# … except wp-content.
+!/wp-content
+
+# Now exclude everything in wp-content …
+/wp-content/*
+
+# … except mu-plugins …
+!/wp-content/mu-plugins
+
+# … and except themes.
+!/wp-content/themes
+
+# Now exclude everything in themes …
+/wp-content/themes/*
+
+# … except child theme.
+!/wp-content/themes/child-theme
