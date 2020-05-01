@@ -1,0 +1,6 @@
+01.05.2020
+
+Changed permissions for the root folder
+
+100644 => 100755
+//gulp sudo chown -R $(whoami)
