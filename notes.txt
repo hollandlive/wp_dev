@@ -6,3 +6,5 @@ Changed permissions for the root folder
 //gulp sudo chown -R $(whoami)
 
 #03.05.2020 uploaded to the server
+
+#06.05.2020 installed Catalina
