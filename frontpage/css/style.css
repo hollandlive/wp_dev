@@ -8,7 +8,7 @@ p .whiteText, span .whiteText {
   color: white; }
 
 p.whiteText {
-  color: white;
+  color: red;
   font-size: 1.3em;
   margin: 1em;
   font-weight: bold !important; }
@@ -157,7 +157,7 @@ li.list-group-item {
     font-weight: normal !important; }
   .width1 {
     height: auto !important;
-    min-height: 313px; }
+    min-height: 312px; }
   .width2 {
     height: auto !important;
     min-height: 313px; }
