@@ -5,11 +5,11 @@ body {
   font-family: Raleway, sans-serif !important; }
 
 p .whiteText, span .whiteText {
-  color: black; }
+  color: red; }
 
 p.whiteText {
-  color: black;
-  font-size: 1.3em;
+  color: green;
+  font-size: 1.4em;
   margin: 1em;
   font-weight: bold !important; }
 
