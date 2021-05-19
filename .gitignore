@@ -17,7 +17,7 @@ trellis/group_vasr/development/vault.yml
   # /wp-content/themes/child-theme
 
 # Exclude everything in root…
-/*
+
 
 # … except wp-content.
 !/wp-content
