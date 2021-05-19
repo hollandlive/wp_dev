@@ -1,0 +1,1 @@
+var area = document.getElementById('area');
