@@ -16,3 +16,5 @@ Changed permissions for the root folder
 #14.06.2021 Brainstorm
 
 #15.06.2021 Test
+
+#17.06.2021 WP Newspaper Theme 11 is live
