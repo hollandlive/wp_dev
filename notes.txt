@@ -18,3 +18,5 @@ Changed permissions for the root folder
 #15.06.2021 Test
 
 #17.06.2021 WP Newspaper Theme 11 is live
+
+#18.06.2021 CV
