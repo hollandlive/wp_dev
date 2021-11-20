@@ -1,8 +1,3 @@
 PHP -> updated to PHP 7.3
 18.09 - rerun project
 28.09 - return 2
-
-git push https://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
-@github.com/hollandlive/wp_dev.git
-
-https://github.com/hollandlive/wp_dev.git
