@@ -36,3 +36,9 @@ trellis/group_vasr/development/vault.yml
 
 # … except child theme.
 !/wp-content/themes/child-theme
+
+# ignore main.css.map
+css/main.css.map
+
+frontpage/scss/bootstrap_overrides.css
+frontpage/scss/bootstrap_overrides.css.map
