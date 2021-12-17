@@ -1,5 +1,58 @@
-body {
-  background-color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.showcase {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #111;
+  color: #fff;
+  z-index: -2;
+}
+
+.showcase .social {
+  position: absolute;
+  right: 0;
+}
+
+.showcase .logo {
+  color: red;
+}
+
+.showcase .toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.menu {
+  display: block;
+  color: aliceblue;
+}
+
+a {
+  color: aliceblue;
 }
 /*# sourceMappingURL=main.css.map */
