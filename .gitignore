@@ -39,6 +39,10 @@ trellis/group_vasr/development/vault.yml
 
 # ignore main.css.map
 css/main.css.map
+css/shop.css.map
+node_modules
+package-lock.json
+package.json
 
 frontpage/scss/bootstrap_overrides.css
 frontpage/scss/bootstrap_overrides.css.map
