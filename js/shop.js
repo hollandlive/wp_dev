@@ -1,6 +1,21 @@
 const cartBtn = document.getElementById('cart');
+const cartModal = document.querySelector('.cart');
+//this method is faster then the second one
+const cartModalClose = cartModal.querySelector('.cart-close');
+//const cartModal = document.querySelector('.cart-close');
 
-cartBtn.onclick = () => {
-    console.log('clicked', { once: true });
+const openCart = () => {
+    cartModal.style.display = 'flex';
 }
+const closeCart = () => {
+    cartModal.style.display = 'none';
+}
+cartBtn.onclick = function () {
+    openCart();
+}
+
+cartModalClose.onclick = function () {
+    closeCart();
+}
+
 console.dir(cartBtn);
