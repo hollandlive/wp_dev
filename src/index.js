@@ -5,3 +5,4 @@ import test from "./modules/test";
 
 cart();
 test();
+getData();
