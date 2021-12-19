@@ -1,10 +1,6 @@
 const test = () => {
-    const myVar = 5;
-    const myFunc = () => {
-        console.log(myVar);
-    }
-
-    myFunc();
+    const cartBtn = document.getElementById('cart')
+    console.log('HOVERD');
 }
 
 export default test;
