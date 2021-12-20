@@ -1,5 +1,5 @@
-const getData = () => {
-    console.log('get dataddd');
+const getData = (str) => {
+    console.log(str);
 }
 
 export default getData;

@@ -1,17 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;500&display=swap");
 @font-face {
-  font-family: "GTEestiProText";
-  src: url("../fonts/GT-Eesti-Pro-Text-Bold.OTF") format("opentype");
-  font-weight: 700;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: "GTEestiProText";
-  src: url("../fonts/GT-Eesti-Pro-Text-Regular.OTF") format("opentype");
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 500;
 }
 
 body {
-  font-family: "GTEestiProText", Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 button {

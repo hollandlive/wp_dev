@@ -1,10 +1,10 @@
 import getData from "./getData";
 
-const test = () => {
+const catalogue = () => {
     const cartBtn = document.getElementById('cart')
     console.log('HOVeD');
 
-    getData();
+    getData('get Dataee11124');
 }
 
-export default test;
+export default catalogue;
