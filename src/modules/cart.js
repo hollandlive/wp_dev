@@ -24,7 +24,7 @@ const cart = () => {
         closeCart();
     });
 
-    getData('get Data from Cart');
+    //getData('get Data from Cart');
 
 }
 
