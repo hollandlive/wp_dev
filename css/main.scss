@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,500&display=swap');
 
+$mainColor: #005DFF;
+
 * {
     margin: 0;
     padding: 0;
@@ -16,13 +18,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: grey;
+    background: $mainColor;
     color: #fff;
     z-index: -2;
-    & ul.social  {
-        position: absolute;
-
-        
+    & .social  {
+           color: red;
     } 
     & .logo {
         color: red;
@@ -37,24 +37,21 @@
         background-position: center;
         cursor: pointer;
     }
-}
 
-
-
-.menu {
-    display: block;
-    color: aliceblue;
-
-
-    & li {
-        display: inline-block;
-        & a {
-            text-decoration: none;
-            padding: 30px;
-            margin: 20px;
+    & .menu li {
+            display: inline-block;
+            & a {
+                text-decoration: none;
+                padding: 30px;
+                margin: 20px;
+            }
         }
     }
-}
+
+
+
+
+
 
 a {
     color: aliceblue;
