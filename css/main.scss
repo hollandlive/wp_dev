@@ -19,9 +19,10 @@
     background: grey;
     color: #fff;
     z-index: -2;
-    .social {
+    & ul.social  {
         position: absolute;
-        right: 0;
+
+        
     } 
     & .logo {
         color: red;
@@ -37,6 +38,8 @@
         cursor: pointer;
     }
 }
+
+
 
 .menu {
     display: block;

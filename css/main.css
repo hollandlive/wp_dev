@@ -28,9 +28,8 @@
   z-index: -2;
 }
 
-.showcase .social {
+.showcase ul.social {
   position: absolute;
-  right: 0;
 }
 
 .showcase .logo {
