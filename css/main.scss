@@ -41,6 +41,16 @@
 .menu {
     display: block;
     color: aliceblue;
+
+
+    & li {
+        display: inline-block;
+        & a {
+            text-decoration: none;
+            padding: 30px;
+            margin: 20px;
+        }
+    }
 }
 
 a {

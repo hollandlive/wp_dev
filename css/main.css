@@ -53,6 +53,16 @@
   color: aliceblue;
 }
 
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 30px;
+  margin: 20px;
+}
+
 a {
   color: aliceblue;
 }
