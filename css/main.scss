@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,500&display=swap');
 
 $colors: (
-    mainColor: #005DFF,
+    mainColor: #ffdd33,
     accentColor: #fff
 );
+
+@function color($colorName) {
+    @return map-get($colors, $colorName)
+}
 
 * {
     margin: 0;
@@ -21,15 +25,17 @@ $colors: (
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: $mainColor;
+    background-color: color(mainColor);
     color: #fff;
     z-index: -2;
-    & .social  {
-           color: red;
-    } 
-    & .logo {
-        color: red;
+
+    .logo {
+        color: aqua;
     }
+    .social  {
+           color: green;
+    } 
+     
     & .toggle {
         position: relative;
         width: 60px;
@@ -41,15 +47,23 @@ $colors: (
         cursor: pointer;
     }
 
-    & .menu li {
+    }
+
+        .menu li {
             display: inline-block;
-            & a {
+             a {
                 text-decoration: none;
                 padding: 30px;
-                margin: 20px;
+                margin: 20px; 
+                span {
+                    position: absolute;
+                    color: red;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
             }
         }
-    }
 
 
 

@@ -23,17 +23,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #005DFF;
+  background-color: #ffdd33;
   color: #fff;
   z-index: -2;
 }
 
-.showcase .social {
-  color: red;
+.showcase .logo {
+  color: aqua;
 }
 
-.showcase .logo {
-  color: red;
+.showcase .social {
+  color: green;
 }
 
 .showcase .toggle {
@@ -47,14 +47,22 @@
   cursor: pointer;
 }
 
-.showcase .menu li {
+.menu li {
   display: inline-block;
 }
 
-.showcase .menu li a {
+.menu li a {
   text-decoration: none;
   padding: 30px;
   margin: 20px;
+}
+
+.menu li a span {
+  position: absolute;
+  color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 a {
