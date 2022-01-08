@@ -2,7 +2,7 @@
 
 $colors: (
     mainColor: #ffdd33,
-    accentColor: #fff
+    accentColor: brown
 );
 
 @function color($colorName) {
@@ -26,7 +26,7 @@ $colors: (
     justify-content: space-between;
     align-items: center;
     background-color: color(mainColor);
-    color: #fff;
+    color: color(accentColor);
     z-index: -2;
 
     .logo {
