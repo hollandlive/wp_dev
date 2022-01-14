@@ -28,6 +28,15 @@
   z-index: -2;
 }
 
+.showcase > header {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+}
+
 .showcase .logo {
   color: red;
 }

@@ -29,6 +29,15 @@ $colors: (
     color: color(accentColor);
     z-index: -2;
 
+    > header {
+        background-color: green;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 100px;
+    }
+
     .logo {
         color: red;
     }     
@@ -46,8 +55,8 @@ $colors: (
         color: yellow;
  } 
     }
-        .menu li {
-            display: inline-block;
+    .menu li {
+        display: inline-block;
              a {
                 text-decoration: none;
                 padding: 30px;
