@@ -31,12 +31,9 @@ $colors: (
 
     .logo {
         color: aqua;
-    }
-    .social  {
-           color: green;
-    } 
-     
-    & .toggle {
+
+    }     
+    .toggle {
         position: relative;
         width: 60px;
         height: 60px;
@@ -45,7 +42,11 @@ $colors: (
         background-size: 30px;
         background-position: center;
         cursor: pointer;
+        display: block;
     }
+    .social  {
+        color: yellow;
+ } 
 
     }
 

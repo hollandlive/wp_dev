@@ -32,10 +32,6 @@
   color: aqua;
 }
 
-.showcase .social {
-  color: green;
-}
-
 .showcase .toggle {
   position: relative;
   width: 60px;
@@ -45,6 +41,11 @@
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+  display: block;
+}
+
+.showcase .social {
+  color: yellow;
 }
 
 .menu li {
