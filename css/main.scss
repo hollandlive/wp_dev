@@ -30,8 +30,7 @@ $colors: (
     z-index: -2;
 
     .logo {
-        color: aqua;
-
+        color: red;
     }     
     .toggle {
         position: relative;
@@ -42,14 +41,11 @@ $colors: (
         background-size: 30px;
         background-position: center;
         cursor: pointer;
-        display: block;
     }
     .social  {
         color: yellow;
  } 
-
     }
-
         .menu li {
             display: inline-block;
              a {
@@ -62,5 +58,10 @@ $colors: (
 a {
     color: aliceblue;
 }
+
+header  {
+    position: relative;
+    padding-left: 0;
+}    
 
 @import url('shop.css');
