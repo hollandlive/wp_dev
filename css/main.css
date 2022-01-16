@@ -47,6 +47,12 @@
           justify-content: space-between;
 }
 
+.showcase > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .showcase .logo {
   color: red;
   text-transform: uppercase;
@@ -62,6 +68,15 @@
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+}
+
+.showcase .toggle.active {
+  color: red;
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
 }
 
 .showcase .social {

@@ -42,6 +42,12 @@ $colors: (
         justify-content: space-between;
     }
 
+    > video {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     .logo {
         color: red;
         text-transform: uppercase;
@@ -56,6 +62,14 @@ $colors: (
         background-size: 30px;
         background-position: center;
         cursor: pointer;
+        &.active {
+            color: red;
+            background: url(https://i.ibb.co/rt3HybH/close.png);
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 30px;
+        }
     }
     .social  {
         color: yellow;
