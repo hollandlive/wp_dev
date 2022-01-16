@@ -49,6 +49,8 @@
 
 .showcase .logo {
   color: red;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .showcase .toggle {

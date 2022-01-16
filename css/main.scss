@@ -44,6 +44,8 @@ $colors: (
 
     .logo {
         color: red;
+        text-transform: uppercase;
+        cursor: pointer;
     }     
     .toggle {
         position: relative;
