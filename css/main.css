@@ -9,7 +9,7 @@
   font-family: 'Source Sans 3', sans-serif;
 }
 
-> header {
+header {
   background-color: yellow;
   position: absolute;
   top: 0;
@@ -26,6 +26,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  z-index: 100;
 }
 
 .showcase {
@@ -44,7 +45,7 @@
           align-items: center;
   background-color: grey;
   color: brown;
-  z-index: -2;
+  z-index: 2;
 }
 
 .showcase > video {
@@ -55,6 +56,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  z-index: 1;
 }
 
 .showcase .logo {
