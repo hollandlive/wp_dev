@@ -59,9 +59,9 @@
   opacity: 0.8;
 }
 
-.showcase > .overlay {
+.showcase > .overlay :not(.text) {
   z-index: 4000;
-  color: yellow;
+  background-color: rebeccapurple;
 }
 
 .showcase .logo {
