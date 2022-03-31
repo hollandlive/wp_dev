@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,500&display=swap');
 
-$colors: (
-    mainColor: grey,
-    accentColor: brown
-);
+$colors: (mainColor: grey,
+    accentColor: brown);
 
 @function color($colorName) {
     @return map-get($colors, $colorName)
@@ -12,9 +10,22 @@ $colors: (
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
     font-size: 20px;
     font-family: 'Source Sans 3', sans-serif;
+}
+
+>header {
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .showcase {
@@ -29,22 +40,11 @@ $colors: (
     color: color(accentColor);
     z-index: -2;
 
-    > header {
-        background-color: yellow;
+
+
+    >video {
         position: absolute;
         top: 0;
-        left: 0;
-        width: 100%;
-        padding: 40px 100px;
-        z-index: 1000;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    > video {
-        position: absolute;
-        top: 10;
         left: 0;
         width: 100%;
         height: 100%;
@@ -55,7 +55,8 @@ $colors: (
         color: red;
         text-transform: uppercase;
         cursor: pointer;
-    }     
+    }
+
     .toggle {
         position: relative;
         width: 60px;
@@ -65,6 +66,7 @@ $colors: (
         background-size: 30px;
         background-position: center;
         cursor: pointer;
+
         &.active {
             color: red;
             background: url(https://i.ibb.co/rt3HybH/close.png);
@@ -74,26 +76,33 @@ $colors: (
             background-size: 30px;
         }
     }
-    .social  {
+
+    .social {
         color: yellow;
- } 
     }
-    .menu li {
-        display: inline-block;
-             a {
-                text-decoration: none;
-                padding: 30px;
-                margin: 20px; 
-            }
-        }
+}
+
+.menu li {
+    display: inline-block;
+
+    a {
+        text-decoration: none;
+        padding: 30px;
+        margin: 20px;
+    }
+}
+
+.menu {
+    display: none;
+}
 
 a {
     color: aliceblue;
 }
 
-header  {
+header {
     position: relative;
     padding-left: 0;
-}    
+}
 
 @import url('shop.css');
