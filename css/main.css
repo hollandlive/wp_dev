@@ -9,26 +9,6 @@
   font-family: 'Source Sans 3', sans-serif;
 }
 
-header {
-  background-color: yellow;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 40px 100px;
-  z-index: 1000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  z-index: 100;
-}
-
 .showcase {
   position: absolute;
   width: 100%;
@@ -46,6 +26,16 @@ header {
   background-color: grey;
   color: brown;
   z-index: 2;
+}
+
+.showcase header {
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 40px 100px;
 }
 
 .showcase > video {
