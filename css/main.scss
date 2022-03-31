@@ -56,9 +56,13 @@ $colors: (mainColor: grey,
         opacity: 0.8;
     }
 
-    >.overlay :not(.text) {
+    >.overlay {
         z-index: 4000;
         background-color: rebeccapurple;
+
+        >.text {
+            color: white;
+        }
 
     }
 
