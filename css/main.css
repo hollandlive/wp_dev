@@ -56,6 +56,12 @@
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 1;
+  opacity: 0.8;
+}
+
+.showcase > .overlay {
+  z-index: 4000;
+  color: yellow;
 }
 
 .showcase .logo {
@@ -86,6 +92,7 @@
 
 .showcase .social {
   color: yellow;
+  z-index: 2000;
 }
 
 .menu li {
@@ -104,10 +111,5 @@
 
 a {
   color: aliceblue;
-}
-
-header {
-  position: relative;
-  padding-left: 0;
 }
 /*# sourceMappingURL=main.css.map */

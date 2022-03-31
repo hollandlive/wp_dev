@@ -53,6 +53,12 @@ $colors: (mainColor: grey,
         height: 100%;
         object-fit: cover;
         z-index: 1;
+        opacity: 0.8;
+    }
+
+    >.overlay {
+        z-index: 4000;
+        color: yellow;
     }
 
     .logo {
@@ -83,6 +89,7 @@ $colors: (mainColor: grey,
 
     .social {
         color: yellow;
+        z-index: 2000;
     }
 }
 
@@ -100,13 +107,15 @@ $colors: (mainColor: grey,
     display: none;
 }
 
+
+
 a {
     color: aliceblue;
 }
 
-header {
-    position: relative;
-    padding-left: 0;
-}
+// header {
+//     position: relative;
+//     padding-left: 0;
+//}
 
 @import url('shop.css');
