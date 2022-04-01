@@ -61,11 +61,24 @@
 
 .showcase > .overlay {
   z-index: 4000;
-  background-color: rebeccapurple;
+  position: absolute;
+  background-color: #171a63;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
 }
 
 .showcase > .overlay > .text {
   color: white;
+  padding-bottom: 20px;
+}
+
+.showcase > .overlay > a {
+  color: red;
+  text-decoration: none;
 }
 
 .showcase .logo {

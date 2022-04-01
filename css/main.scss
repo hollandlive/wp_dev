@@ -58,10 +58,24 @@ $colors: (mainColor: grey,
 
     >.overlay {
         z-index: 4000;
-        background-color: rebeccapurple;
+        position: absolute;
+        background-color: rgb(23, 26, 99);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #03a9f4;
+        mix-blend-mode: overlay;
 
         >.text {
             color: white;
+            padding-bottom: 20px;
+        }
+
+        >a {
+            color: red;
+            text-decoration: none;
+            ;
         }
 
     }
