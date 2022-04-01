@@ -74,6 +74,8 @@
 .showcase > .overlay > .text {
   color: white;
   padding-bottom: 20px;
+  position: relative;
+  z-index: 15000;
 }
 
 .showcase > .overlay > a {
