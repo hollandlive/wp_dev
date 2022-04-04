@@ -73,7 +73,7 @@ $colors: (mainColor: grey,
         >h2 {
             font-size: 3em;
             font-weight: 800;
-            line-height: 4em;
+            line-height: 3em;
         }
 
         >h3 {
@@ -83,12 +83,24 @@ $colors: (mainColor: grey,
             text-transform: uppercase;
         }
 
+        >p {
+            font-size: 1.1em;
+            font-weight: 300;
+            line-height: 1.2em;
+            max-width: 600px;
+        }
+
         >a {
-            color: blue;
+            display: inline-block;
+            color: #03a9f4;
+            background-color: white;
             text-decoration: none;
             z-index: 10001;
-            line-height: 4em;
+            font-size: 1em;
+            line-height: 2em;
             position: relative;
+            padding: 10px 30px;
+            margin-top: 30px;
 
         }
 
