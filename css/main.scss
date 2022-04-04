@@ -43,8 +43,6 @@ $colors: (mainColor: grey,
 
     }
 
-
-
     >video {
         position: absolute;
         top: 0;
@@ -57,31 +55,34 @@ $colors: (mainColor: grey,
     }
 
     >.overlay {
-        z-index: 4000;
+        z-index: 10;
         position: absolute;
         background-color: rgb(23, 26, 99);
         width: 100%;
         height: 100%;
         top: 0;
         left: 0;
-        background: #03a9f4;
-        mix-blend-mode: overlay;
+        display: none;
+    }
 
-        >.text {
-            color: white;
-            padding-bottom: 20px;
-            position: relative;
-            z-index: 15000;
+    .text {
+        color: white;
+        position: relative;
+        z-index: 10000;
 
-        }
-
-        >a {
-            color: red;
-            text-decoration: none;
-            ;
-        }
 
     }
+
+    a {
+        color: blue;
+        text-decoration: none;
+        z-index: 10001;
+        margin-top: 20px;
+        position: relative;
+
+    }
+
+
 
     .logo {
         color: red;
@@ -110,7 +111,7 @@ $colors: (mainColor: grey,
     }
 
     .social {
-        color: yellow;
+        color: blue;
         z-index: 2000;
     }
 }
@@ -118,11 +119,6 @@ $colors: (mainColor: grey,
 .menu li {
     display: inline-block;
 
-    a {
-        text-decoration: none;
-        padding: 30px;
-        margin: 20px;
-    }
 }
 
 .menu {
@@ -130,10 +126,6 @@ $colors: (mainColor: grey,
 }
 
 
-
-a {
-    color: aliceblue;
-}
 
 // header {
 //     position: relative;

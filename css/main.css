@@ -60,27 +60,28 @@
 }
 
 .showcase > .overlay {
-  z-index: 4000;
+  z-index: 10;
   position: absolute;
   background-color: #171a63;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background: #03a9f4;
-  mix-blend-mode: overlay;
+  display: none;
 }
 
-.showcase > .overlay > .text {
+.showcase .text {
   color: white;
-  padding-bottom: 20px;
   position: relative;
-  z-index: 15000;
+  z-index: 10000;
 }
 
-.showcase > .overlay > a {
-  color: red;
+.showcase a {
+  color: blue;
   text-decoration: none;
+  z-index: 10001;
+  margin-top: 20px;
+  position: relative;
 }
 
 .showcase .logo {
@@ -110,7 +111,7 @@
 }
 
 .showcase .social {
-  color: yellow;
+  color: blue;
   z-index: 2000;
 }
 
@@ -118,17 +119,7 @@
   display: inline-block;
 }
 
-.menu li a {
-  text-decoration: none;
-  padding: 30px;
-  margin: 20px;
-}
-
 .menu {
   display: none;
-}
-
-a {
-  color: aliceblue;
 }
 /*# sourceMappingURL=main.css.map */
