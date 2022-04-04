@@ -73,14 +73,21 @@ $colors: (mainColor: grey,
         >h2 {
             font-size: 3em;
             font-weight: 800;
-            line-height: 3em;
+            line-height: 4em;
+        }
+
+        >h3 {
+            font-size: 3em;
+            font-weight: 500;
+            line-height: 1.5em;
+            text-transform: uppercase;
         }
 
         >a {
             color: blue;
             text-decoration: none;
             z-index: 10001;
-            margin-top: 20px;
+            line-height: 4em;
             position: relative;
 
         }
