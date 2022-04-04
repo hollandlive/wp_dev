@@ -80,9 +80,10 @@
 .showcase .text > h2 {
   font-size: 3em;
   font-weight: 800;
+  line-height: 3em;
 }
 
-.showcase a {
+.showcase .text > a {
   color: blue;
   text-decoration: none;
   z-index: 10001;
