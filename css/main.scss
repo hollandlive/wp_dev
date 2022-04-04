@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;500;800&display=swap');
 $colors: (mainColor: grey,
     accentColor: brown);
 
@@ -62,13 +61,19 @@ $colors: (mainColor: grey,
         height: 100%;
         top: 0;
         left: 0;
-        display: none;
+        background: #03a9f4;
+        mix-blend-mode: overlay;
     }
 
     .text {
         color: white;
         position: relative;
         z-index: 10000;
+
+        >h2 {
+            font-size: 3em;
+            font-weight: 800;
+        }
 
 
     }
