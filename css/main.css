@@ -130,6 +130,11 @@
           align-items: center;
 }
 
+.showcase .social li {
+  list-style: none;
+  margin: 5px 8px;
+}
+
 .showcase .logo {
   color: red;
   text-transform: uppercase;
