@@ -78,15 +78,14 @@
 }
 
 .showcase .text h2 {
+  padding-top: 40px;
   font-size: 3em;
   font-weight: 800;
-  line-height: 3em;
 }
 
 .showcase .text h3 {
   font-size: 3em;
   font-weight: 500;
-  line-height: 1.5em;
   text-transform: uppercase;
 }
 
@@ -132,7 +131,20 @@
 
 .showcase .social li {
   list-style: none;
+}
+
+.showcase .social li a {
+  display: inline-block;
   margin: 5px 8px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.showcase .social li a:hover {
+  -webkit-transform: scale(0.9) translateY(-15px);
+          transform: scale(0.9) translateY(-15px);
 }
 
 .showcase .logo {
@@ -172,5 +184,17 @@
 
 .menu {
   display: none;
+}
+
+@media (max-width: 991px) {
+  .showcase header {
+    padding: 40px;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
