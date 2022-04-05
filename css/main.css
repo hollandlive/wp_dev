@@ -47,7 +47,7 @@
           justify-content: space-between;
 }
 
-.showcase > video {
+.showcase video {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,7 +59,7 @@
   opacity: 0.8;
 }
 
-.showcase > .overlay {
+.showcase .overlay {
   z-index: 10;
   position: absolute;
   background-color: #171a63;
@@ -77,27 +77,27 @@
   z-index: 10000;
 }
 
-.showcase .text > h2 {
+.showcase .text h2 {
   font-size: 3em;
   font-weight: 800;
   line-height: 3em;
 }
 
-.showcase .text > h3 {
+.showcase .text h3 {
   font-size: 3em;
   font-weight: 500;
   line-height: 1.5em;
   text-transform: uppercase;
 }
 
-.showcase .text > p {
+.showcase .text p {
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.2em;
   max-width: 600px;
 }
 
-.showcase .text > a {
+.showcase .text a {
   display: inline-block;
   color: #03a9f4;
   background-color: white;
@@ -108,6 +108,26 @@
   position: relative;
   padding: 10px 30px;
   margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.showcase .text a:hover {
+  letter-spacing: 6px;
+}
+
+.showcase .social {
+  position: absolute;
+  bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .showcase .logo {

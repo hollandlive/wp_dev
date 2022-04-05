@@ -42,7 +42,7 @@ $colors: (mainColor: grey,
 
     }
 
-    >video {
+    video {
         position: absolute;
         top: 0;
         left: 0;
@@ -53,7 +53,7 @@ $colors: (mainColor: grey,
         opacity: 0.8;
     }
 
-    >.overlay {
+    .overlay {
         z-index: 10;
         position: absolute;
         background-color: rgb(23, 26, 99);
@@ -70,27 +70,27 @@ $colors: (mainColor: grey,
         position: relative;
         z-index: 10000;
 
-        >h2 {
+        h2 {
             font-size: 3em;
             font-weight: 800;
             line-height: 3em;
         }
 
-        >h3 {
+        h3 {
             font-size: 3em;
             font-weight: 500;
             line-height: 1.5em;
             text-transform: uppercase;
         }
 
-        >p {
+        p {
             font-size: 1.1em;
             font-weight: 300;
             line-height: 1.2em;
             max-width: 600px;
         }
 
-        >a {
+        a {
             display: inline-block;
             color: #03a9f4;
             background-color: white;
@@ -101,14 +101,23 @@ $colors: (mainColor: grey,
             position: relative;
             padding: 10px 30px;
             margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
 
+            &:hover {
+                letter-spacing: 6px;
+            }
         }
 
     }
 
-
-
-
+    .social {
+        position: absolute;
+        bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .logo {
         color: red;
