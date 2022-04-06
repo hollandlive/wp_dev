@@ -28,6 +28,10 @@ $colors: (mainColor: grey,
     color: color(accentColor);
     z-index: 2;
 
+    & .active {
+        right: 300px;
+    }
+
     header {
         background-color: yellow;
         position: absolute;
