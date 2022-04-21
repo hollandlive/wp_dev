@@ -39,3 +39,6 @@ currently sites offline
 video website
 
 sudo APP_PORT=3001 ./vendor/bin/sail up - for laravel (MySQL should be stopped)
+
+#21-04-22
+Easter
