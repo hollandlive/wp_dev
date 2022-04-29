@@ -42,3 +42,6 @@ sudo APP_PORT=3001 ./vendor/bin/sail up - for laravel (MySQL should be stopped)
 
 #21-04-22
 Easter
+
+#29-04-2022
+restart
