@@ -55,3 +55,4 @@ back from Volos
 crypto-crash Luna (v2) vs Etherium fork 2016
 #19-05-20
 #29-05-22 my own crash
+#03-06
